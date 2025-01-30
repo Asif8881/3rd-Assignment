@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vegetables-Shop</title>
-    <!-- DaisyUI CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- TailwindCSS -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetables-Shop</title>
+  <!-- DaisyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- TailwindCSS -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
+      }
+    }
+  </script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Css Style -->
+  <style>
+    .font {
+      font-family: "Work Sans", serif;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <header>
+  <header class="bg-gradient-to-r from-[#f1efef] to-[#ebe7e7]">
+    <section class="lg:mx-14 ">
+      <div class="lg:flex md:flex justify-between ">
+        <div class="">
+          <img src="c2-assets/logo-header.png" alt="" class="my-3">
+        </div>
+        <div class="flex list-none gap-5 my-4">
+          <li><a>Product</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact</a></li>
+        </div>
+        <div class="my-4">
+          <i class="fa-solid fa-cart-shopping gap-3"></i>
+          <i class="fas fa-search"></i>
+          <button class="btn btn-outline btn-success">Login</button>
+          <button class="btn btn-success">Register</button>
+        </div>
+      </div>
+      <!-- Nev Bar Responsiv -->
+      <div class="lg:hidden md:hidden sm:flex xl:hidden">
+        <div>
+          <img src="" alt="">
+        </div>
+        <div>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </section>
+    <section class="justify-items-center">
+      <div class="justify-center">
+        <h1 class="text-4xl font-bold mt-8 justify-self-center">
+          Freshness <span class="text-green-500">You Can</span><br>
+          <span class="text-green-500">Count</span> On, Prices You’ll Love!
+        </h1>
+        <p class="text-sm">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, <br> we’ve got you covered every day!</p>
+      </div>
+      <div>
+        <img src="c2-assets/hero-vegetables.png" alt="">
+      </div>
+    </section>
 
-    </header>
-    <main>
+  </header>
+  <main>
 
-    </main>
-    <footer>
 
-    </footer>
+  </main>
+  <footer>
+
+  </footer>
 </body>
+
 </html>
